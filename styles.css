@@ -1,0 +1,49 @@
+@font-face {
+  font-family: fredoka;
+  src: url(FredokaOne-Regular.ttf);
+}
+@font-face {
+  font-family: acme;
+  src: url(Acme-Regular.ttf);
+}
+.menu {
+  /* add correct code to place the menu correctly.*/
+
+  background-color: black;
+  font-size: 30px;
+  font-family: fredoka;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+body {
+  background-color:blanchedalmond;
+}
+.bodyimg{
+  font-family: acme;
+  font-size: 20px;
+  text-align: center;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.555);
+  margin: 20px;
+  padding: 20px;
+  width: 310px;
+  font-family: fredoka;
+  font-size: large;
+}
